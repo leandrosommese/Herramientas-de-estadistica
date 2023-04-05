@@ -28,7 +28,9 @@ Mint), tenés que descargar el archivo .deb, luego abrir una terminal (Ctrl + Al
 desplazarte hasta la carpeta donde se encuentra descargado y ejecutar el siguiente
 comando:
 
-`sudo dpkg -i archivo-descargado.deb`
+```bash
+sudo dpkg -i archivo-descargado.deb
+```
 
 En caso de que aparezca la pregunta de si lo quiere instalar simplemente hay que
 apretar la tecla s y luego enter. (La versión del Visual Studio Code puede variar)
