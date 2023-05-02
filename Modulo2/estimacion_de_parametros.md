@@ -90,86 +90,38 @@ Asimismo, se pueden definir otras medidas de dispersión relativas, como el coef
 
 La descripción estadı́stica de una muestra de datos no concluye con el cálculo de su tendencia central y su dispersión. Para dar una descripción completa es necesario estudiar también el grado de simetrı́a de los datos respecto a su medida central y la concentración de los datos alrededor de dicho valor.
 
-**Coeficientes de asimetrı́a**: Se dice que una distribución de medidas es simétrica cuando valores de la variable equidistantes, a uno y otro lado, del valor central tienen la misma frecuencia. Es decir, en este caso tendremos simetrı́a en el histograma alrededor de una vertical trazada por el punto central. En el caso de una distribución perfectamente simétrica los valores de media aritmética, mediana y moda coinciden
+**Coeficientes de asimetrı́a:** Se dice que una distribución de medidas es simétrica cuando valores de la variable equidistantes, a uno y otro lado, del valor central tienen la misma frecuencia. Es decir, en este caso tendremos simetrı́a en el histograma alrededor de una vertical trazada por el punto central. En el caso de una distribución perfectamente simétrica los valores de media aritmética, mediana y moda coinciden.
 
-<img src="./images/asimetria.jpeg" 
+<img src="./images/asimetria.png" 
      width="100%" 
      height=auto />
 
 
-En el caso de no tener simetrı́a, diremos que tenemos asimetrı́a a la derecha (o positiva) o a la izquierda
-(o negativa) dependiendo de que el histograma muestre una cola de medidas hacia valores altos o bajos de
-la variable respectivamente. También se puede decir que la distribución está sesgada a la derecha (sesgo
-positivo) o a la izquierda (sesgo negativo). En el caso de una distribución asimétrica, la media, mediana y
-moda no coinciden, siendo x ≥ M e ≥ M o para una asimetrı́a positiva y x ≤ M e ≤ M o para una asimetrı́a
-negativa (ver Figura 3.3).
-Con el fin de cuantificar el grado de asimetrı́a de una distribución se pueden definir los coeficientes de
-asimetrı́a. Aunque no son los únicos, existen dos coeficientes principales:
-Coeficiente de asimetrı́a de Fisher. Se define como el cociente entre el momento de orden 3 respecto
-a la media y el cubo de la desviación tı́pica
-g 1 =
-m 3
-s 3
-donde
-m 3 =
-" k
-− x) 3 n i
-.
-N
-i=1 (x i
-(3.23)
-En el caso una distribución simétrica, las desviaciones respecto a la media se anularán (puesto que
-en m 3 el exponente es impar se sumarán números positivos y negativos) y el coeficiente de asimetrı́a
-será nulo (g 1 = 0). En caso contrario, g 1 tendrá valores positivos para una asimetrı́a positiva (a la
-derecha) y negativos cuando la asimetrı́a sea en el otro sentido. Hay que indicar que la división por el
-cubo de la desviación tı́pica se hace para que el coeficiente sea adimensional y, por lo tanto, comparable
-entre diferentes muestras.
-Coeficiente de asimetrı́a de Pearson. Este coeficiente, también adimensional, se define como
-A P =
-x − M o
-.
-s
-(3.24)
-Su interpretación es similar a la del coeficiente de Fisher, siendo nulo para una distribución simétrica
-(en ese caso media y moda coinciden) y tanto más positivo, o negativo, cuando más sesgada esté la
-Estadı́stica Básica para Estudiantes de Ciencias
-Febrero 20093.4 Asimetrı́a y curtosis
-37
-Figura 3.4: Distribuciones con diferente grado de apuntamiento: leptocúrtica (g 2 > 3), mesocúrtica (g 2 = 3) y
-platicúrtica (g 2 < 3).
-distribución hacia la derecha, o hacia la izquierda.
-(Continuación.)
-Ejemplo I–*
-Calculemos los coeficientes de asimetrı́a en los ejemplos anteriores.
-3.4.2.
-Ejemplo x s M o m 3 g 1 = m 3 /s 3
-I–5 2.25 1.16 2 1.06 0.68 (positiva)
-I–6 8.52 0.80 8.26 0.50 0.98 (positiva)
-A p = (x − M o )/s
-0.22
-0.325
-Coeficiente de curtosis
-Además de la simetrı́a, otra caracterı́stica importante de la forma en que se distribuyen los datos de la
-muestra es cómo es el agrupamiento en torno al valor central. Como se observa en la Figura 3.4, los datos
-se pueden distribuir de forma que tengamos un gran apuntamiento (o pico en el histograma) alrededor del
-valor central, en cuyo caso diremos que tenemos una distribución leptocúrtica, o en el extremo contrario,
-el histograma puede ser muy aplanado, lo que corresponde a una distribución platicúrtica. En el caso inter-
-medio, diremos que la distribución es mesocúrtica y el agrupamiento corresponderá al de una distribución
-llamada normal, o en forma de campana de Gauss.
-Esta caracterı́stica del agrupamiento de los datos se denomina curtosis y para cuantificarla se define el
-coeficiente de curtosis como el cociente entre el momento de cuarto orden respecto a la media y la cuarta
-potencia de la desviación tı́pica
-g 2 =
-m 4
-s 4
-donde
-m 4 =
-" k
-− x) 4 n i
-.
-N
-i=1 (x i
-(3.25)
-Este coeficiente adimensional alcanza valores mayores cuanto más puntiaguda es la distribución, teniendo
-un valor de 3 para la distribución mesocúrtica (o normal), mayor que 3 para la leptocúrtica y menor para la
-platicúrtica (ver Figura 3.4).
+En el caso de no tener simetrı́a, diremos que tenemos asimetrı́a a la derecha (o positiva) o a la izquierda (o negativa) dependiendo de que el histograma muestre una cola de medidas hacia valores altos o bajos de la variable respectivamente.
+
+Con el fin de cuantificar el grado de asimetrı́a de una distribución se pueden definir los coeficientes de asimetrı́a.
+
+**Coeficiente de asimetrı́a de Fisher.** Se define como el cociente entre el momento de orden 3 respecto a la media y el cubo de la desviación tı́pica.
+
+Tendrá valores positivos para una asimetrı́a positiva (a la derecha) y negativos cuando la asimetrı́a sea en el otro sentido. Hay que indicar que la división por el cubo de la desviación tı́pica se hace para que el coeficiente sea adimensional y, por lo tanto, comparable entre diferentes muestras.
+
+```python
+skewness = df.skew(axis=0, skipna=True, numeric_only=False)
+```
+
+**Coeficiente de curtosis**: Además de la simetrı́a, otra caracterı́stica importante de la forma en que se distribuyen los datos de la
+muestra es cómo es el agrupamiento en torno al valor central.
+
+<img src="./images/curtosis.png" 
+     width="100%" 
+     height=auto />
+
+Los datos se pueden distribuir de forma que tengamos un gran apuntamiento alrededor del valor central, en cuyo caso diremos que  tenemos una distribución leptocúrtica, o en el extremo contrario, el histograma puede ser muy aplanado, lo que corresponde a una distribución platicúrtica. En el caso intermedio, diremos que la distribución es mesocúrtica y el agrupamiento corresponderá al de una distribución llamada normal, o en forma de campana de Gauss.
+
+Esta caracterı́stica del agrupamiento de los datos se denomina curtosis y para cuantificarla se define el coeficiente de curtosis como el cociente entre el momento de cuarto orden respecto a la media y la cuarta potencia de la desviación tı́pica
+
+Este coeficiente adimensional alcanza valores mayores cuanto más puntiaguda es la distribución, teniendo un valor de 0 para la distribución mesocúrtica (o normal), mayor que 0 para la leptocúrtica y menor para la platicúrtica.
+
+```python
+kurtosis = df.kurt(axis=0, skipna=True, numeric_only=False)
+```
