@@ -125,3 +125,18 @@ Este coeficiente adimensional alcanza valores mayores cuanto más puntiaguda es 
 ```python
 kurtosis = df.kurt(axis=0, skipna=True, numeric_only=False)
 ```
+
+## Variables estadísticas bidimensionales
+
+***Distribuciones marginales***
+
+A veces es interesante analizar cuántas veces se repite un cierto valor de x sin tener en cuenta para nada a los posibles valores de y, o viceversa. A la distribución formada por los diferentes valores de x y sus frecuencias marginales se le llama distribución marginal de x.
+
+***Distribuciones condicionadas***
+
+En muchos casos es importante conocer la distribución de la variable x para todos aquellos pares de datos en los que la variable y toma un cierto valor y j . Es decir, al contrario que en las distribuciones marginales en que no importaba el valor que tomase la otra variable, ahora se fija dicho valor. A este conjunto de valores que puede tomar la variable x para un cierto valor y j de y se le llama distribución de x condicionada a y = y j y las correspondientes frecuencias absolutas se representan por 
+
+> n(x i |y = y j )
+
+cuyo significado es, entonces, el número de veces que aparece repetido el valor xi entre aquellos pares de datos que tienen y = yj.
+De la misma forma se puede definir la distribución de y condicionada a x = xi .
