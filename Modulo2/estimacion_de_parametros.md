@@ -92,7 +92,7 @@ La descripción estadı́stica de una muestra de datos no concluye con el cálcu
 
 **Coeficientes de asimetrı́a:** Se dice que una distribución de medidas es simétrica cuando valores de la variable equidistantes, a uno y otro lado, del valor central tienen la misma frecuencia. Es decir, en este caso tendremos simetrı́a en el histograma alrededor de una vertical trazada por el punto central. En el caso de una distribución perfectamente simétrica los valores de media aritmética, mediana y moda coinciden.
 
-<img src="./images/asimetria.png" 
+<img src="./asimetria.png" 
      width="100%" 
      height=auto />
 
@@ -112,7 +112,7 @@ skewness = df.skew(axis=0, skipna=True, numeric_only=False)
 **Coeficiente de curtosis**: Además de la simetrı́a, otra caracterı́stica importante de la forma en que se distribuyen los datos de la
 muestra es cómo es el agrupamiento en torno al valor central.
 
-<img src="./images/curtosis.png" 
+<img src="./curtosis.png" 
      width="100%" 
      height=auto />
 
