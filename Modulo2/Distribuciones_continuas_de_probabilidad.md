@@ -1,172 +1,28 @@
 # Distribuciones continuas de probabilidad
 
-En este tema se presentan algunas de las distribuciones continuas de probabilidad más comunes y fre-
-cuentemente utilizadas en Fı́sica. También resultan fundamentales a la hora de tomar decisiones en inferencia
-estadı́stica y al realizar contrastes de hipótesis, como se estudiará más adelante.
-8.1.
-Distribución continua uniforme
-Se dice que una variable aleatoria X sigue una distribución continua uniforme cuando su función de
-densidad f (x) toma valores constantes en el intervalo [a, b]. Es decir, f (x) = K en ese intervalo y, por tanto,
-la probabilidad de que tome un valor en cualquier incremento (de la misma anchura) dentro de ese intervalo
-es la misma. Para calcular esa constante aplicamos la condición de normalización de la función de densidad
-1=
-.
-∞
-f (x) dx =
-−∞
-.
-b
-f (x) dx =
-a
-.
-b
-a
-K dx = K(b − a)
-Por lo tanto la función de densidad tiene la forma
-
-
-
- 0
-1
-f (x) =
-b−a
-
-
- 0
-⇒
-K =
-1
-.
-b − a
-x<a
-a<x<b
-(8.1)
-x>b
-Podemos además calcular la función de distribución F (x). Cuando x esté en el intervalo [a, b]
-F (x) = P (X < x) =
-.
-x
-f (t) dt =
-−∞
-y, en general,
-F (x) =
-.
-x
-a
-
-
-
- 0
-x<a
-x−a
-b−a
-
-
- 1
-1
-x − a
-dt =
-,
-b − a
-b − a
-a<x<b
-x>b
-89
-(8.2)90
-Distribuciones continuas de probabilidad
-Figura 8.1: Función de densidad, f (x), y función de distribución, F (x), para una distribución continua uniforme.
-La representación gráfica de la función de densidad y de la función de distribución será como la mostrada
-en la Figura 8.1.
-La media, o esperanza matemática, de la distribución continua, se puede expresar como
-µ =
-.
-∞
-xf (x) dx =
-−∞
-.
-b
-x
-a
-? 2 @ b
-dx
-1
-x
-b 2 − a 2
-(a + b)(b − a)
-=
-=
-=
-b − a
-b − a 2 a
-2(b − a)
-2(b − a)
-⇒
-a + b
-.
-2
-µ =
-(8.3)
-Por otra parte, la varianza puede calcularse como
-σ 2 =
-.
-∞
-−∞
-(x − µ) 2 f (x) dx =
-.
-a
-b
-6
-x −
-a + b
-2
-7 2
-dx
-=
-b − a
-A
-6
-7 2 B b
-1
-x 3
-a + b 2
-a + b
-−
-x +
-x .
-b − a 3
-2
-2
-a
-Desarrollando se llega a la expresión para la varianza y la desviación tı́pica
-σ 2 =
-8.2.
-(b − a) 2
-12
-;
-b − a
-σ = √ .
-12
-(8.4)
-Distribución normal
-La distribución continua de probabilidad más importante de toda la estadı́stica es, sin duda alguna, la
-distribución normal. La importancia de esta distribución se debe a que describe con gran aproximación la
-distribución de las variables asociadas con muchos fenómenos de la naturaleza. En particular, las medidas de
-magnitudes fı́sicas suelen distribuirse según una distribución normal. Por ejemplo, la distribución de alturas
-de un grupo de población, las medidas de calidad de procesos industriales, o la distribución de temperaturas
-de una población, se pueden aproximar por distribuciones normales. Además, los errores en las medidas
-también se aproximan con mucha exactitud a la distribución normal. Por otra parte, bajo ciertas condiciones,
-la distribución normal constituye una buena aproximación a otras distribuciones de probabilidad, como la
-binomial y la de Poisson. Frecuentemente, a la distribución normal se la denomina también distribución
-gaussiana.
-Estadı́stica Básica para Estudiantes de Ciencias
-Febrero 20098.2 Distribución normal
-91
-Figura 8.2: Función de densidad, f (x), y función de distribución, F (x), para una distribución normal. Se muestran
-las representaciones correspondientes a dos valores de la media µ y la desviación tı́pica σ.
-8.2.1.
-Definición y propiedades
+## Distribución continua uniforme
+
+Se dice que una variable aleatoria X sigue una `distribución continua uniforme` cuando su función de densidad f(x) toma valores constantes en el intervalo [a, b]. Es decir, `f (x) = K en ese intervalo` y, por tanto, la probabilidad de que tome un valor en cualquier incremento (de la misma anchura) dentro de ese intervalo es la misma.
+
+
+<img src=./distribucion_continua_uniforme.png
+     width="50%" 
+     height=auto />
+función de densidad f(x)
+<img src=./distribucion_continua_uniforme2.png
+     width="50%" 
+     height=auto />
+función de distribución F(x)
+
+## Distribución normal
+
+La distribución continua de probabilidad más importante de toda la estadı́stica es, sin duda alguna, la distribución normal. La importancia de esta distribución se debe a que describe con gran aproximación la distribución de las variables asociadas con muchos fenómenos de la naturaleza.Además, los errores en las medidas también se aproximan con mucha exactitud a la distribución normal. Por otra parte, bajo ciertas condiciones,la distribución normal constituye una buena aproximación a otras distribuciones de probabilidad, como la binomial y la de Poisson. Frecuentemente, a la distribución normal se la denomina también distribución gaussiana.
+
+***Definición y propiedades***
+
 Por definición, se dice que una variable aleatoria continua X sigue una distribución normal de media
 µ y desviación tı́pica σ si su función de densidad es
+
 f (x) = N (µ, σ) =
 (x−µ)2
 1
@@ -178,37 +34,7 @@ f (x) = N (µ, σ) =
 De esta forma, una vez que se especifican µ y σ la distribución queda determinada completamente. Puede
 comprobarse que esta distribución de probabilidad cumple la condición de normalización dada en (6.4), ya
 que
-.
-∞
-f (x) dx =
-−∞
-1
-√
-σ 2π
-.
-∞
-−∞
-e −
-(x−µ)2
-2σ 2
-1
-dx = √
-2π
-.
-∞
-e −
-z 2
-2
-−∞
-1 √
-2π = 1,
-dz = √
-2π
-(8.6)
-donde se ha hecho el cambio de variable z = (x − µ)/σ (es decir dx = σ dz) y se ha aplicado el siguiente
-&
-/ ∞
-2
+
 valor tabulado de la integral: −∞ e −ax dx = π/a.
 Gráficamente (Figura 8.2), la distribución de probabilidad normal tiene forma de campana (llamada
 campana de Gauss, o curva normal), simétrica (por depender de x a través del término (x−µ) 2 ), centrada en µ
