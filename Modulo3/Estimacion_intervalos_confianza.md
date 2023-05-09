@@ -48,20 +48,19 @@ Para poder aplicar la expresión anterior es necesario conocer previamente σ. S
 la práctica se toma una muestra piloto pequeña (aunque es deseable que n > 30) para poder estimar σ
 mediante la desviación tı́pica muestral S.
 
-What do we need to calculate the sample size?
+¿Qué necesitamos para calcular el tamaño de la muestra?
 
-In order to calculate the sample size we always need the following parameters;
+Para calcular el tamaño de la muestra siempre necesitamos los siguientes parámetros;
 
-    sample size — what we need to determine;
-    α-level (alpha-level), usually = 0.05 (or 5%). Learn more here.
-    Power, usually 0.8 (or 80%). Learn more here.
-    Effect size
+    - Nivel α (nivel alfa), generalmente = 0.05
+    - Potencia, normalmente 0,8
+    - Tamaño del efecto
 
-What about the effect size?
+¿A qué se refiere con el tamaño del efecto?
 
-The effect size is a measure of the magnitude of an effect in a statistical analysis, such as a comparison between two groups.
+El tamaño del efecto es una medida de la magnitud de un efecto en un análisis estadístico, como una comparación entre dos grupos.
 
-    For continuous outcomes (e.g., BMI, blood pressure); The effect size is expressed as the difference between two means divided by a standard deviation;
-    For a discrete/binary outcome (e.g., success/failure, yes/no), the effect size can be expressed as an Odds Ratio (OR).
+    Para resultados continuos, el tamaño del efecto se expresa como la diferencia entre dos medias dividida por una desviación estándar;
+    Para un resultado discreto/binario, el tamaño del efecto se puede expresar como una razón de probabilidades (OR).
 
-The larger the effect size, the smaller the sample size required to detect it. In other words the larger the difference between groups, the fewer participants you will need to prove the difference.
+Cuanto mayor sea el tamaño del efecto, menor será el tamaño de muestra necesario para detectarlo. En otras palabras, cuanto mayor sea la diferencia entre los grupos, menos participantes necesitará para demostrar la diferencia.
