@@ -8,6 +8,4 @@ Para elegir una prueba de comparación de medianas, es importante considerar los
 
 4. Tamaño de la muestra: El tamaño de la muestra también es importante para seleccionar la prueba adecuada. Si el tamaño de la muestra es pequeño, se puede utilizar la prueba de Mann-Whitney o la prueba de Wilcoxon. Si el tamaño de la muestra es grande, se puede utilizar la prueba de Kruskal-Wallis.
 
-5. Objetivo del análisis: El objetivo del análisis también es importante para seleccionar la prueba adecuada. Por ejemplo, si se desea comparar la mediana de dos grupos independientes, se debe utilizar la prueba de Mann-Whitney. Si se desea comparar la mediana de tres o más grupos independientes, se debe utilizar la prueba de Kruskal-Wallis.
-
 Es importante seleccionar la prueba adecuada para obtener resultados precisos y confiables. Además, se debe tener en cuenta que el uso incorrecto de las pruebas estadísticas puede llevar a conclusiones erróneas y a interpretaciones incorrectas de los datos.
