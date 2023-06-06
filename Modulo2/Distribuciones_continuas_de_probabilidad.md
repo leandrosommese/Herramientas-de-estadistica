@@ -25,6 +25,7 @@ Función de densidades F(x)
 
 ***Definición y propiedades***
 
+
 Por definición, se dice que una variable aleatoria continua X sigue una distribución normal de media µ y desviación tı́pica σ si su función de densidad es
 
 > f (x) = N (µ, σ) = e <sup>-(x−µ)<sup>2</sup>/2σ<sup>2</sup></sup>/(σ √2π) ; −∞ < x < ∞
