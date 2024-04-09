@@ -8,7 +8,7 @@ Conda es tanto un administrador de paquetes como un administrador de entorno. Es
 
 La instalación de Anaconda Distribution es muy sencilla: sólo debes descargar el instalador de la distribución y ejecutarlo como cualquier Python download con instalador de aplicaciones Windows.
 
-<img src="./images/inst_anaconda_win.png" 
+<img src="./inst_anaconda_win.png" 
      width="80%" 
      height=auto />
 
@@ -54,13 +54,13 @@ bash Anaconda3-2022.05-Linux-x86_64.sh
 
 Después de ejecutar el comando bash, será bienvenido a la configuración de Anaconda. Sin embargo, debe revisar y aceptar su acuerdo de licencia antes de la instalación. Presiona *Enter* para continuar.
 
-<img src="./images/Command-line-window-for-using-the-bash-script-for-installing-Anaconda.png" 
+<img src="./Command-line-window-for-using-the-bash-script-for-installing-Anaconda.png" 
      width="200%" 
      height=auto />
 
 Presionar la barra espaciadora varias veces lo llevará al final del acuerdo de licencia, donde puede aceptar los términos. Escriba ***SÍ*** como se resalta y presione *Entrar*.
 
-<img src="./images/Anaconda-installer-window-showcasing-license-agreements-that-need-to-be-accepted-to-proceed-with-the-Anaconda-installation.png" 
+<img src="./Anaconda-installer-window-showcasing-license-agreements-that-need-to-be-accepted-to-proceed-with-the-Anaconda-installation.png" 
      width="200%" 
      height=auto />
 
@@ -70,13 +70,13 @@ Después de aceptar los términos de la licencia, el siguiente mensaje le pedir�
 
 Se recomienda instalar Anaconda en esta ubicación. Por lo tanto, presione Entrar para confirmar la ubicación predeterminada.
 
-<img src="./images/Command-line-window-displaying-Anaconda-installation-location-option.png" 
+<img src="./Command-line-window-displaying-Anaconda-installation-location-option.png" 
      width="200%" 
      height=auto />
 
 En el siguiente mensaje, verá que el proceso de instalación ha comenzado. Espere unos minutos hasta que el instalador complete con éxito el proceso de instalación. Escriba ***SÍ*** una vez más y presione *Entrar*.
 
-<img src="./images/Last-step-of-Anaconda-installation-shown-on-the-command-line.png" 
+<img src="./Last-step-of-Anaconda-installation-shown-on-the-command-line.png" 
      width="200%" 
      height=auto />
 
@@ -97,6 +97,6 @@ conda info
 
 Si el proceso de instalación fue exitoso, se debe mostrar una información similar:
 
-<img src="./images/Conda-command-output-showcasing-full-information-about-recently-installed-Anaconda-package-768x476.png" 
+<img src="./Conda-command-output-showcasing-full-information-about-recently-installed-Anaconda-package-768x476.png" 
      width="200%" 
      height=auto />

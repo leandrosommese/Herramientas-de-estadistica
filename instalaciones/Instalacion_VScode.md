@@ -5,7 +5,7 @@ Visual Studio Code es un editor de código fuente ligero pero potente que se eje
 
 Encuentre rápidamente la instalación adecuada para su plataforma (Windows, macOS y Linux): https://code.visualstudio.com/download
 
-<img src="./images/installVSC.png" 
+<img src="./installVSC.png" 
      width="80%" 
      height=auto />
 
@@ -13,7 +13,7 @@ Encuentre rápidamente la instalación adecuada para su plataforma (Windows, mac
 #### WINDOWS
 Si tu sistema operativo es **Windows 10** abrí el archivo descargado para empezar la instalación:
 
-<img src="./images/agreement_windows.png" 
+<img src="./agreement_windows.png" 
      width="50%" 
      height=auto />
 

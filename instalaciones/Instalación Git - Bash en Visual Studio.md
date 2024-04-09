@@ -12,7 +12,7 @@ https://git-scm.com/download/win
 
 Una vez descargado lo abren y le dan a **Next** hasta que aparezca la opción de elección de editor de texto, donde elegimos Visual Studio Code:
 
-<img src="./images/git_windows.png" 
+<img src="./git_windows.png" 
      width="80%" 
      height=auto />
 
@@ -26,7 +26,7 @@ Para descargar e instalar git en Linux es suficiente con poner el siguiente coma
 apt-get install git
 ```
 
-<img src="./images/git_linux.png" 
+<img src="./git_linux.png" 
      width="80%" 
      height=auto />
 
@@ -40,7 +40,7 @@ Para descargar e instalar git en MAC primero instalar *homebrew*, y luego:
 brew install git
 ```
 
-<img src="./images/git_mac.png" 
+<img src="./git_mac.png" 
      width="80%" 
      height=auto />
 
