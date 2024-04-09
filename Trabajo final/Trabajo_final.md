@@ -8,7 +8,7 @@ automatizado de datos y el análisis estadístico utilizando lenguajes de progra
 
 2) **FORMA DE ENTREGA**
 
-El trabajo práctico se realizará en equipos de hasta 4 integrantes, y se entregará el día 20 de Junio. El mismo deberá además estar o a un repositorio público en Github (creado para la materia), el cual deberá contener un archivo README.md con los datos de l@s integrantes del equipo. Los trabajos serán presentados por los miembros del equipo en una exposición oral en los días 27 de Junio o 04 de Julio.
+El trabajo práctico se realizará de forma individual, y se entregará el día 21 de Junio. El mismo deberá además estar o a un repositorio público en Github (creado para la materia), el cual deberá contener un archivo README.md con los datos de l@s integrantes del equipo. Los trabajos serán presentados por los miembros del equipo en una exposición oral en los días 27 de Junio o 04 de Julio.
 
 3) **DATASET**
 
