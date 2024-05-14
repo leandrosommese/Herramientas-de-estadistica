@@ -13,7 +13,7 @@ Existen diferentes tipos de test de correlación, y el tipo de test que se utili
 Es importante tener en cuenta que un coeficiente de correlación no implica causalidad entre las variables. Es decir, la correlación no indica necesariamente que una variable cause la otra, sino simplemente que hay una relación entre ellas. Por lo tanto, es importante tener en cuenta otros factores y realizar análisis más detallados para determinar la naturaleza de la relación entre las variables.
 
 
-## Comparación datod discretos 
+## Comparación datos discretos 
 
 La comparación de tablas de contingencia implica la evaluación de si hay diferencias significativas entre las distribuciones de frecuencia observadas en dos o más grupos. Aquí te presento algunos métodos comunes para comparar tablas de contingencia:
 
